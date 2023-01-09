@@ -1,0 +1,56 @@
+/* css */
+body {
+  background: url(image/back1.png);
+}
+.container {
+  text-align: center;
+  margin-top: 25px;
+}
+table {
+  margin: auto;
+}
+button {
+  font-style: calc();
+  font-size: 40px;
+  margin: 5px;
+  padding: 10px;
+  background: linear-gradient(45deg, #070453, transparent);
+  height: 80px;
+  width: 110px;
+  border: salmon;
+  border-radius: 40px;
+  box-shadow: 5px 6px black;
+}
+button:hover {
+  color: white;
+  background-color: rgb(114, 183, 226);
+  box-shadow: 5px 6px white;
+  animation: alternate-reverse;
+}
+
+input {
+  font-size: 35px;
+  text-decoration-style: double;
+  height: 60px;
+  width: 450px;
+  padding: 10px;
+  margin: 5px;
+  border: 7px solid double;
+  border-radius: 20px;
+  box-shadow: 5px 6px rgb(0, 7, 12);
+}
+.calculator {
+  background-color: #beff9a;
+  padding: 23px;
+  display: inline-block;
+  border-radius: 40px;
+  height: 570px;
+  width: 495px;
+  box-shadow: 5px 6px rgb(64, 64, 3);
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30;
+  color: yellow;
+  display: -moz-inline-box;
+}
